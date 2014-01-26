@@ -1,0 +1,94 @@
+	<div id="controls">
+		<button type="button" id="play-pause">Play</button>
+		<input type="range" id="seek-bar" value="0">
+		<button type="button" id="mute">Mute</button>
+		<input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+		<button type="button" id="full-screen">Full Screen</button>
+	</div>
+	<div id="progressbar">
+		<div id="loading"></div>
+	</div>
+/* 	===============
+	Video Controls
+	===============
+*/
+#controls {
+	width: 95%;
+	margin: 0 auto;
+}
+#play-pause, #mute,
+#full-screen {
+	background: rgb(150,150,150);
+	color: #ffae02;
+	text-shadow: 1px 1px 2px black;
+	border-radius: 5px;
+}
+
+
+
+(function() {
+	$('html.js').find('video').removeAttr('controls');
+
+	var video = $('#video').get(0),	
+		playButton = $('#play-pause').get(0),
+		muteButton = $('#mute').get(0),
+		fullScreen = $('#full-screen').get(0),
+		seekBar = $('#seek-bar').get(0),
+		volumeBar =	$('#volume-bar').get(0);
+
+	playButton.addEventListener('click', function() {
+		if (video.paused == true) {
+			video.play();
+
+			playButton.innerHTML = "Pause";
+		} else {
+			video.pause();
+
+			playButton.innerHTML = "Play";
+		}
+	});
+
+	muteButton.addEventListener('click', function() {
+		if (video.muted == false) {
+			video.muted = true;
+
+		} else {
+			video.muted = false;
+		}
+	});
+
+	fullScreen.addEventListener('click', function() {
+		if (video.requestFullscreen) {
+			video.requestFullscreen();
+		} else if (video.mozRequestFullScreen) {
+			video.mozRequestFullScreen();
+		} else if (video.webkitRequestFullscreen) {
+			video.webkitRequestFullscreen();
+		}
+	});
+
+	seekBar.addEventListener('change', function() {
+		var time = video.duration * (seekBar.value / 100);
+
+		video.currentTime = time;
+	});
+
+	video.addEventListener('timeupdate', function() {
+		var value = (100 / video.duration) * video.currentTime;
+
+		seekBar.value = value;
+	});
+
+	seekBar.addEventListener('mousedown', function() {
+		video.pause();
+	});
+
+	seekBar.addEventListener('mouseup', function() {
+		video.play();
+	});
+
+	volumeBar.addEventListener('change', function() {
+		video.volume = volumeBar.value;
+	});
+
+})();

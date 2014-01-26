@@ -1,0 +1,13 @@
+# MIME-type issue fix
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
+
+AddType audio/mpeg .mp3
+AddType audio/ogg .ogg
+AddType audio/mp4 .m4a
+AddType audio/wav .wav
+
+#Redirects for errors
+ErrorDocument 404 	/caleb_westbrook/error/notfound.php
+ErrorDocument 500	/caleb_westbrook/error/serverer.php
