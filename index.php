@@ -8,6 +8,9 @@ include 'inc/header.php';
 		<img src="http://lorempixel.com/g/1280/800/people" alt="Caleb Westbrook">
 		<figcaption>Caleb Westbrook Playing Guitar at Such and Such Place</figcation>
 	</figure>
+</section>
+
+<section class="about">
 	<article class="bio">
 		<h3>Bio</h3>
 		<p>
@@ -27,16 +30,15 @@ include 'inc/header.php';
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 	</article>
+
+	<div class="video">
+		<video id="video" class="yendifplayer" controls preload>
+	  		<source src="media/minou.webm" type="video/webm"/>
+	  		<source src="media/minou.mp4" type="video/mp4" />
+		</video>
+	</div>
 </section>
-
-<section class="video">
-	<video id="video" class="yendifplayer" controls preload>
-  		<source src="media/minou.webm" type="video/webm"/>
-  		<source src="media/minou.mp4" type="video/mp4" />
-	</video>
-
-</section>
-
+	
 <section class="audio">
 	<h2>Song Title - Caleb Westbrook</h2>
 	<audio src="media/test.mp3" class="audio-player" type="audio/mp3" controls preload="auto">
