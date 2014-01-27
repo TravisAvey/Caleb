@@ -15,7 +15,6 @@
 		}, 1000);
 		return false;
 	});
-	htmlBody.addCSS('background', 'red');
-	console.log('umm.. hello');
+
 
 })();
