@@ -2,6 +2,7 @@
 <footer> &copy; Copyright 2014 || Web Design and Development by <a href="http://www.enlightenedwebdesigns.com">Enlightened Web Designs</a> </footer>
 
 <script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.jplayer.min.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <script src="js/script.js"></script>
 </body>

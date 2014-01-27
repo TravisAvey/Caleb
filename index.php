@@ -38,7 +38,7 @@ include 'inc/header.php';
 		</video>
 	</div>
 </section>
-	
+
 <section class="audio">
 	<h2>Song Title - Caleb Westbrook</h2>
 	<audio src="media/test.mp3" class="audio-player" type="audio/mp3" controls preload="auto">
@@ -46,6 +46,7 @@ include 'inc/header.php';
 		<p>Your browser doesn't support playing audio files</p>
 	</audio>
 </section>
+
 
 <?php 
 include 'inc/footer.php';
