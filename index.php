@@ -32,22 +32,17 @@ include 'inc/header.php';
 	</article>
 
 	<div class="video">
-		<video id="video" class="yendifplayer" controls preload>
-	  		<source src="media/minou.webm" type="video/webm"/>
-	  		<source src="media/minou.mp4" type="video/mp4" />
-		</video>
+		<iframe src="//player.vimeo.com/video/37328349" width="560" height="315" frameborder="2" color="ffae02" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div>
-</section>
 
-<section class="audio">
+<!-- <section class="audio">
 	<h2>Song Title - Caleb Westbrook</h2>
 	<audio src="media/test.mp3" class="audio-player" type="audio/mp3" controls preload="auto">
 	<audio src="media/test.ogg" class="audio-player" type="audio/ogg" controls preload="auto">
 		<p>Your browser doesn't support playing audio files</p>
-	</audio>
+	</audio> -->
 </section>
-
-
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/21487637&amp;color=ffae02&amp;auto_play=false&amp;show_artwork=true"></iframe>
 <?php 
 include 'inc/footer.php';
  ?>
