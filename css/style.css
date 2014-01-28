@@ -50,6 +50,7 @@ header p {
 	margin: 0.5em 0;
 	background: black;
 	color: white;
+	border-bottom: 3px solid #ffae02;
 }
 .bio h3 {
 	font-size: 1.15em;
@@ -220,6 +221,16 @@ section.audio h2 {
 	div.video {
 		width: 85%;
 		margin: 1em auto;
+	}
+	div.soundcloud {
+		background: black;
+		display: flex;
+		padding: 1em 0;
+		border-bottom: 3px solid #ffae02;
+	}
+	div.soundcloud iframe {
+		width: 85%;
+		margin: auto;
 	}
 }
 @media screen and (min-width: 900px) {

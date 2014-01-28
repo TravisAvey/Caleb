@@ -6,7 +6,7 @@ include 'inc/header.php';
 	<h2>Well, Something about Caleb here..</h2>
 	<figure>
 		<img src="http://lorempixel.com/g/1280/800/people" alt="Caleb Westbrook">
-		<figcaption>Caleb Westbrook Playing Guitar at Such and Such Place</figcation>
+		<figcaption>Caleb Westbrook Playing Guitar at Such and Such Place</figcaption>
 	</figure>
 </section>
 
@@ -41,8 +41,12 @@ include 'inc/header.php';
 	<audio src="media/test.ogg" class="audio-player" type="audio/ogg" controls preload="auto">
 		<p>Your browser doesn't support playing audio files</p>
 	</audio> -->
+
+		<div class="soundcloud">
+			<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/21487637&amp;color=ffae02&amp;auto_play=false&amp;show_artwork=true"></iframe>
+		</div>
+
 </section>
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/21487637&amp;color=ffae02&amp;auto_play=false&amp;show_artwork=true"></iframe>
 <?php 
 include 'inc/footer.php';
  ?>
