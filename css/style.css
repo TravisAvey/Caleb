@@ -31,7 +31,7 @@ header p {
 
 .intro h2 {
 	color: #ffae02;
-	text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	text-shadow: 1px 1px 1px rgb(90,90,90);
 	font-size: 1.5em;
 	width: 95%;
 	margin: 1em auto;
@@ -109,6 +109,7 @@ footer {
 	margin-top: 1em;
 	font-size: 0.750em;
 	text-align: center;
+	padding: 1em 0;
 }
 footer a {
 	text-decoration: none;
@@ -122,6 +123,7 @@ div.soundcloud iframe {
 }
 h3.music-tag {
 	font-size: 1.7em;
+	text-shadow: 1px -2px 3px rgb(90,90,90);
 	text-align: center;
 	padding: 0.5em;
 	border-bottom: 4px solid #ffae02;
