@@ -30,9 +30,12 @@ header p {
 }
 
 .intro h2 {
+	color: #ffae02;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 	font-size: 1.5em;
 	width: 95%;
 	margin: 1em auto;
+
 }
 .intro figure,
 .intro figure img {
@@ -76,7 +79,7 @@ div.video {
 	position: relative;
 	padding-bottom: 56.25%;
 	padding-top: 3em;
-	height: 0;
+	/*height: 0;*/
 	overflow: hidden;
 }
 div.video iframe,
@@ -235,8 +238,40 @@ section.audio h2 {
 	}
 }
 @media screen and (min-width: 900px) {
-	article.bio h3,
-	article.bio p {
+	article.bio h3,{
 		width: 75%;
 	}
+	article.bio p {
+		width: 65%;
+	}
 }
+@media screen and (min-width: 1000px) {
+	.no-flexbox article.bio {
+		width: 50%;
+		float: left;	
+	}
+	.no-flexbox div.video {
+		width: 50%;
+		float: right;
+	}
+	article.bio p {
+		width: 85%;
+	}
+	section.about {
+		display: flex;
+		background: black;
+		border-bottom: 4px solid #ffae02;
+	}
+	article.bio {
+		width: 50%;
+		border: none;
+	}
+	div.video {
+		width: 50%;
+	}
+	div.soundcloud {
+		margin-top: 3em;
+	}
+}
+
+
