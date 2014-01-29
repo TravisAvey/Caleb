@@ -224,13 +224,14 @@ section.audio h2 {
 	}
 	div.soundcloud {
 		background: black;
-		display: flex;
 		padding: 1em 0;
 		border-bottom: 3px solid #ffae02;
 	}
 	div.soundcloud iframe {
+		display: block;
 		width: 85%;
-		margin: auto;
+		height: 20em;
+		margin: 0 auto;
 	}
 }
 @media screen and (min-width: 900px) {
