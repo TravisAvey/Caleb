@@ -117,6 +117,15 @@ footer a {
 footer a:visited {
 	color: black;
 }
+div.soundcloud iframe {
+	height: 20em;
+}
+h3.music-tag {
+	font-size: 1.7em;
+	text-align: center;
+	padding: 0.5em;
+	border-bottom: 4px solid #ffae02;
+}
 
 /* ================ 	
 	Error Pages
@@ -134,25 +143,6 @@ footer a:visited {
 	font-size: 1.25em;
 }
 
-/*
-	=============
-	Media Player
-	=============
-*/
-section.audio {
-	width: 300px;
-	height: 5em;
-	margin: 1em auto;
-	background: rgba(0,0,0,0.5);
-	border-radius: 5px;
-}
-section.audio h2 {
-	padding: 0.3em;
-	font-size: 1.15em;
-	text-align: center;
-	color: #ffae02;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-}
 @media screen and (min-width: 420px) {
 	header h1 {
 		font-size: 2.8em;
@@ -233,7 +223,6 @@ section.audio h2 {
 	div.soundcloud iframe {
 		display: block;
 		width: 85%;
-		height: 20em;
 		margin: 0 auto;
 	}
 }
@@ -270,7 +259,7 @@ section.audio h2 {
 		width: 50%;
 	}
 	div.soundcloud {
-		margin-top: 3em;
+		/*margin-top: 3em;*/
 	}
 }
 

@@ -59,7 +59,7 @@ include 'inc/header.php';
 	</audio> -->
 
 </section>
-<h3 class="music-title">Listen to some of Caleb's Music!</h3>
+<h3 class="music-tag">Listen to some of Caleb's Music!</h3>
 <div class="soundcloud">
 	<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/21487637&amp;color=ffae02&amp;auto_play=false&amp;show_artwork=true"></iframe>
 </div>
