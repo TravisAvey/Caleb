@@ -139,15 +139,33 @@ h3.music-tag {
    ================
 */
 .error {
-	margin: 2em 0;
+	width: 25%;
+	margin: 2em auto;
 	padding: 0.25em;
+	
+}
+.error .circle {
+	float: right;
 	background: #ffae02;
-	border: 2px dashed black;
-	border-radius: 4px;
-	box-shadow: 0 0 0 4px #ffae02;
+	border: 2px dotted white;
+	width: 6em;
+	height: 6em;
+	border-radius: 50%;
+	box-shadow: 0 0 0 3px #ffae02;
+}
+.error h1:first-child {
+	color: #ffae02;
+	text-shadow: 1px 1px 1px black;
 }
 .error h1 {
-	font-size: 1.25em;
+	font-size: 1.5em;
+}
+div.error .circle > h1 {
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 3em;
+	text-align: center;
 }
 
 @media screen and (min-width: 420px) {
@@ -262,7 +280,7 @@ h3.music-tag {
 	}
 	div.video {
 		width: 45%;
-		margin-left: 2em;
+		margin-left: 5em;
 	}
 	.no-flexbox article.bio {	
 		width: 45%;
