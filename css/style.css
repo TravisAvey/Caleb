@@ -128,7 +128,12 @@ h3.music-tag {
 	padding: 0.5em;
 	border-bottom: 4px solid #ffae02;
 }
+.no-flexbox div.group:after {
+	content: "";
+ 	display: table;
+  	clear: both;
 
+}
 /* ================ 	
 	Error Pages
    ================
@@ -237,31 +242,35 @@ h3.music-tag {
 	}
 }
 @media screen and (min-width: 1000px) {
-	.no-flexbox article.bio {
-		width: 50%;
-		float: left;	
-	}
-	.no-flexbox div.video {
-		width: 50%;
-		float: right;
-	}
 	article.bio p {
-		width: 85%;
+			width: 85%;
 	}
 	section.about {
-		display: flex;
-		background: black;
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  		display: -ms-flexbox;      /* TWEENER - IE 10 */
+ 		display: -webkit-flex;     /* NEW - Chrome */
+ 		display: flex;		
+		background-color: black;
 		border-bottom: 4px solid #ffae02;
 	}
+	
 	article.bio {
-		width: 50%;
+		width: 45%;
+		margin-left: -1em;		
 		border: none;
 	}
 	div.video {
-		width: 50%;
+		width: 45%;
+		margin-left: 2em;
 	}
-	div.soundcloud {
-		/*margin-top: 3em;*/
+	.no-flexbox article.bio {	
+		width: 45%;
+		float: left;	
+	}
+	.no-flexbox div.video {
+		width: 45%;
+		float: right;
 	}
 }
 
