@@ -5,7 +5,7 @@ include 'inc/header.php';
 <section class="intro">
 	<h2>Well, Something about Caleb here..</h2>
 	<figure>
-		<img src="http://lorempixel.com/g/1280/800/people" alt="Caleb Westbrook">
+		<img src="img/caleb1bw.jpg" alt="Caleb Westbrook playing guitar">
 		<figcaption>Caleb Westbrook Playing Guitar at Such and Such Place</figcaption>
 	</figure>
 </section>
@@ -48,14 +48,14 @@ include 'inc/header.php';
 	</article>
 
 	<div class="video">
-		<iframe src="//player.vimeo.com/video/37328349" width="560" height="315" frameborder="2" color="ffae02" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<iframe src="//player.vimeo.com/video/37328349" width="560" height="315" frameborder="2" color="#ffae02" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div>
 </section>
 
 <div class="group"></div>
 <h3 class="music-tag">Listen to some of Caleb's Music!</h3>
 <div class="soundcloud">
-	<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/21487637&amp;color=ffae02&amp;auto_play=false&amp;show_artwork=true"></iframe>
+	<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/22983816&amp;auto_play=false&amp;hide_related=false&amp;visual=true&amp;color=ffae02"></iframe>
 </div>
 <?php 
 include 'inc/footer.php';
