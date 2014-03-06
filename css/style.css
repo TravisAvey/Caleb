@@ -1,14 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Cabin);
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+html {
+	height: 100%;
+	background: url("../img/caleb1bw.jpg") no-repeat fixed;
+	background-size: cover;
+}
+
 body {
 	font-size: 90%;
 	font-family: 'Cabin', sans-serif;
 }
 header {
 	padding: 1em;
-	background: black;
-	border-bottom: 3px solid #ffae02;
+	/*background: black;*/
+	/*border-bottom: 3px solid #ffae02;*/
 	margin-top: 2em;
 }
 header h1 {
@@ -78,9 +84,12 @@ nav[role="main"] ul li a:hover {
 	width: 85%;
 	margin: 0 auto;
 }
+section.about {
+	margin-top: 30em;
+}
 .bio {
 	margin: 0.5em 0;
-	background: black;
+	background: rgba(0,0,0,0.3);
 	color: white;
 	border-bottom: 3px solid #ffae02;
 }

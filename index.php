@@ -2,13 +2,13 @@
 include 'inc/header.php';
  ?>
 
-<section class="intro">
+<!-- <section class="intro">
 	<h2>Well, Something about Caleb here..</h2>
 	<figure>
 		<img src="img/caleb1bw.jpg" alt="Caleb Westbrook playing guitar">
 		<figcaption>Caleb Westbrook Playing Guitar at Such and Such Place</figcaption>
 	</figure>
-</section>
+</section> -->
 
 <section class="about" id="bio">
 	<article class="bio">
