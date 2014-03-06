@@ -3,8 +3,8 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 html {
 	height: 100%;
-	background: url("../img/caleb1bw.jpg") no-repeat fixed;
-	background-size: cover;
+	background: url("../img/caleb1bw.jpg") no-repeat fixed #000;
+	background-size: contain;
 }
 
 body {
@@ -29,6 +29,7 @@ header p {
 header h1,
 header p {
 	color: white;
+	z-index: 1;
 }
 header nav {
 	position: fixed;
@@ -85,7 +86,7 @@ nav[role="main"] ul li a:hover {
 	margin: 0 auto;
 }
 section.about {
-	margin-top: 30em;
+	margin: 15em auto;
 }
 .bio {
 	margin: 0.5em 0;
@@ -144,6 +145,7 @@ a.top {
 	padding: 0.5em 0.5em 0 0.5em;
 }
 footer {
+	color: white;
 	margin-top: 1em;
 	font-size: 0.750em;
 	text-align: center;
@@ -151,7 +153,7 @@ footer {
 }
 footer a {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 footer a:visited {
 	color: black;
@@ -161,6 +163,7 @@ div.soundcloud iframe {
 }
 h3.music-tag {
 	font-size: 1.7em;
+	color: white;
 	text-shadow: 1px -2px 3px rgb(90,90,90);
 	text-align: center;
 	padding: 0.5em;
@@ -173,10 +176,11 @@ h3.music-tag {
 
 }
 #connect {
+	margin-top: 15em;
 	border-top: 4px solid #ffae02;
 	border-bottom: 4px solid #ffae02;
 	padding: 1em 0.5em;
-	background: #000;
+	background: rgba(0,0,0,0.3);
 }
 #connect h2 {
 	font-size: 1.5em;
