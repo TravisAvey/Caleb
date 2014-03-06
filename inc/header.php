@@ -1,14 +1,16 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<!--[if lt IE 9]>
+		<meta charset="utf-8" />
+		<!--[if lt IE 10]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="icon" type="image/png" href="">
 		<script src="js/Modernizr2.7.1.js"></script>
 		<meta name="viewport" content="width=device-width" initial-scale="1.0">
-		<meta charset="utf-8" />
+
 		<meta name="description" content="">
 		<title>Caleb Westbrook</title>
 	</head>
@@ -17,13 +19,12 @@
 <header>
 	<h1>Caleb Westbrook</h1>
 	<p>Country Singer-Song writer</p>
-	<!-- <img src="img/menu.png"> -->
-	<!-- <nav>
+	<nav role="main">
 		<ul>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="music.php">Music</a></li>
-			<li><a href="about.php">Bio</a></li>
-			<li><a href="contact.php">Contact</a></li>
+			<li><a href="#bio" title="Learn about me">About</a></li>
+			<li><a href="#music" title="Hear some of my music">Music</a></li>
+			<li><a href="#connect" title="Connect with me">Connect</a></li>
 		</ul>
-	</nav> -->
+	</nav>
+	
 </header>
