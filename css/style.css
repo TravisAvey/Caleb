@@ -95,7 +95,7 @@ section.about {
 	border-bottom: 3px solid #ffae02;
 }
 .bio h3 {
-	font-size: 1.15em;
+	font-size: 1.75em;
 	font-weight: bold;
 	letter-spacing: 0.25em;
 	border-bottom: 3px solid #ffae02;
@@ -108,7 +108,8 @@ section.about {
 
 }
 .bio p {
-	font-size: 0.9em;
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
 }
 /*	===========================================================
 	The following makes the video from vimeo/youtube responsive
@@ -183,10 +184,14 @@ h3.music-tag {
 	background: rgba(0,0,0,0.3);
 }
 #connect h2 {
-	font-size: 1.5em;
+	font-size: 2em;
+	letter-spacing: 0.3em;
 	text-align: center;
 	color: #fff;
-	text-shadow: 1px 1px 1px #ffae02;
+}
+#connect ul {
+	width: 45%;
+	margin: 1em auto;
 }
 #connect ul li {
 	list-style: none;
@@ -197,7 +202,7 @@ h3.music-tag {
 #connect ul li a {
 	text-decoration: none;
 	color: white;
-
+	letter-spacing: 0.1em;
 	transition: all 0.5s linear;
 }
 #connect a:hover {
@@ -251,8 +256,8 @@ div.error .circle > h1 {
 		font-size: 1.25em;
 	}
 	.bio p {
-		font-size: 1em;
-		letter-spacing: 0.02em;
+		/*font-size: 1em;
+		letter-spacing: 0.02em;*/
 	}
 	footer {
 		font-size: 0.9em
@@ -288,12 +293,27 @@ div.error .circle > h1 {
 		width: 80%;
 		margin: 1em auto;
 	}
+	#connect ul {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	#connect ul li {
+		margin: 1.5em auto;
+	}
+	#connect ul li {
+		font-size: 1.2em;
+	}
 	footer {
 		width: 85%;
 		margin: 0 auto;
 	}
 }
 @media screen and (min-width: 750px) {
+	html {
+		background-size: cover;
+	}
 	header h1 {
 		font-size: 3.5em;
 	}
@@ -340,14 +360,15 @@ div.error .circle > h1 {
   		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   		display: -ms-flexbox;      /* TWEENER - IE 10 */
  		display: -webkit-flex;     /* NEW - Chrome */
- 		display: flex;		
-		background-color: black;
+ 		display: flex;
+ 		background-color: rgba(0,0,0,0.3);		
 		border-bottom: 4px solid #ffae02;
 	}
 	
 	article.bio {
 		width: 45%;
 		border: none;
+		background-color: rgba(0,0,0,0);
 	}
 	div.video {
 		width: 45%;
