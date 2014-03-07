@@ -9,7 +9,6 @@ include 'inc/header.php';
 		<figcaption>Caleb Westbrook Playing Guitar at Such and Such Place</figcaption>
 	</figure>
 </section> -->
-
 <section class="about" id="bio">
 	<article class="bio">
 		<h3>Biography</h3>
