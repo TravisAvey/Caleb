@@ -12,7 +12,7 @@ include 'inc/header.php';
 
 <section class="about" id="bio">
 	<article class="bio">
-		<h3>Bio</h3>
+		<h3>Biography</h3>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

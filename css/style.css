@@ -32,10 +32,11 @@ header h1 {
 	font-family: 'Pacifico', cursive;
 	font-size: 2.50em;
 	letter-spacing: 0.05em;
-	text-shadow: 1px 1px 2px #ffae02;
+	text-shadow: 1px 1px 1px #000;
 }
 header p {
 	margin-top: 0.45em;
+	letter-spacing: 0.05em;
 }
 header h1,
 header p {
@@ -64,6 +65,7 @@ nav[role="main"] ul li {
 nav[role="main"] ul li a {
 	font-size: 1.1em;
 	letter-spacing: 0.1em;
+	font-variant: small-caps;
 	text-decoration: none;
 	color: white;
 
@@ -111,7 +113,8 @@ section.about {
 .bio h3 {
 	font-size: 1.75em;
 	font-weight: bold;
-	letter-spacing: 0.25em;
+	letter-spacing: 0.5em;
+	font-variant: small-caps;
 	border-bottom: 3px solid #ffae02;
 }
 .bio,
@@ -124,6 +127,7 @@ section.about {
 .bio p {
 	font-size: 1.1em;
 	letter-spacing: 0.1em;
+	line-height: 1.3em;
 }
 /*	===========================================================
 	The following makes the video from vimeo/youtube responsive
@@ -169,6 +173,7 @@ footer {
 footer a {
 	text-decoration: none;
 	color: white;
+	font-variant: small-caps;
 	transition: 0.5s color linear;
 }
 footer a:visited {
@@ -183,7 +188,7 @@ div.soundcloud iframe {
 h3.music-tag {
 	font-size: 1.7em;
 	color: white;
-	text-shadow: 1px -2px 3px rgb(90,90,90);
+	text-shadow: 1px 1px 1px #000;
 	text-align: center;
 	padding: 0.5em;
 	border-bottom: 4px solid #ffae02;
@@ -199,7 +204,8 @@ h3.music-tag {
 	border-top: 4px solid #ffae02;
 	border-bottom: 4px solid #ffae02;
 	padding: 5em 0.5em;
-	background: rgba(255, 174, 2, 0.125);
+	text-shadow: 1px 1px 1px black;
+	background: rgba(255, 174, 2, 0.1);
 }
 #connect h2 {
 	font-size: 2em;
