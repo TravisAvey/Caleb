@@ -206,6 +206,7 @@ h3.music-tag {
 	letter-spacing: 0.3em;
 	text-align: center;
 	color: #fff;
+	margin-bottom: 1em;
 }
 #connect ul {
 	width: 45%;
@@ -215,7 +216,7 @@ h3.music-tag {
 	list-style: none;
 	color: white;
 	font-size: 1.1em;
-	padding-bottom: 0.5em;
+	padding-bottom: 1.5em;
 }
 #connect ul li a {
 	text-decoration: none;
@@ -334,12 +335,16 @@ div.error .circle > h1 {
 		background-size: cover;
 	}
 	header h1 {
-		font-size: 3.5em;
+		font-size: 4.5em;
+		letter-spacing: 0em;
 	}
 	header h1,
 	header p {
 		width: 85%;
 		margin: 0.5em auto;
+	}
+	header p {
+		font-size: 1.5em;
 	}
 	article.bio h3 {
 		font-size: 2em;
@@ -350,6 +355,10 @@ div.error .circle > h1 {
 	div.video {
 		width: 85%;
 		margin: 1em auto;
+	}
+	h3.music-tag {
+		font-size: 2.5em;
+		padding: 2.5em;
 	}
 	div.soundcloud {
 		background: black;
