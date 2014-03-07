@@ -15,7 +15,9 @@
 		<title>Caleb Westbrook</title>
 	</head>
 <body>
-
+<!-- [if lt IE 10]>
+	<div class="browser">You are using a browser that is not supported.  Try a different <a href="http://whatbrowser.org/">browser.</a></div>
+<![endif]-->
 <header>
 	<h1>Caleb Westbrook</h1>
 	<p>Country Singer-Song writer</p>
