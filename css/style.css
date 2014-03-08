@@ -52,6 +52,10 @@ header nav[role="main"] {
 	z-index: 1000;
 }
 nav[role="main"] ul {
+	display: -webkit-box; 
+  	display: -moz-box; 
+  	display: -ms-flexbox; 
+	display: -webkit-flex;    
 	display: flex;
 	width: 50%;
 	margin:  auto;
@@ -173,6 +177,7 @@ footer a {
 	text-decoration: none;
 	color: white;
 	font-variant: small-caps;
+	-webkit-transition: 0.5s color linear;
 	transition: 0.5s color linear;
 }
 footer a:visited {
@@ -227,6 +232,7 @@ h3.music-tag {
 	text-decoration: none;
 	color: white;
 	letter-spacing: 0.1em;
+	-webkit-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
 #connect a:hover {
@@ -311,7 +317,11 @@ div.errorMessage a:visited {
 	}
 	#connect ul {
 		width: 100%;
-		display: flex;
+		display: -webkit-box; 
+  		display: -moz-box; 
+  		display: -ms-flexbox; 
+ 		display: -webkit-flex;    
+ 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
@@ -373,10 +383,10 @@ div.errorMessage a:visited {
 }
 @media screen and (min-width: 1000px) {
 	article.bio p {
-			width: 90%;
-			-webkit-columns: 20em;
-			-moz-columns: 20em;
-			columns: 20em;
+		width: 90%;
+		-webkit-columns: 20em;
+		-moz-columns: 20em;
+		columns: 20em;
 	}
 	section.about {
 		/*display: -webkit-box; 
