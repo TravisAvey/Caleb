@@ -24,7 +24,8 @@
 	<nav role="main">
 		<ul>
 			<li><a href="#bio" title="Learn about me">About</a></li>
-			<li><a href="#music" title="Hear some of my music">Music</a></li>
+			<li><a href="#music" title="Hear some of my music">Listen</a></li>
+			<li><a href="#video" title="Watch a video about me">Watch</a></li>
 			<li><a href="#connect" title="Connect with me">Connect</a></li>
 		</ul>
 	</nav>
