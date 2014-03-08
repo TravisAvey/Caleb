@@ -3,3 +3,6 @@
 3. Redo the Error 404/500 pages. -done
 4. Video and Bio when received.
 5. Custom animation with JavaScript for links.
+6. Clean up directory, removing unused files.
+7. Compress images.
+8. Concat scripts/css.
