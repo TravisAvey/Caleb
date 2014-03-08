@@ -1,4 +1,5 @@
 1. Use Modernizr.js and update all flexbox items with it.
-2. Ensure all font sizes look all right.
-3. Redo the Error 404/500 pages.
+2. Ensure all font sizes look all right. -done
+3. Redo the Error 404/500 pages. -done
 4. Video and Bio when received.
+5. Custom animation with JavaScript for links.
