@@ -240,18 +240,20 @@ h3.music-tag {
    ================
 */
 .error {
-	width: 25%;
+	width: 50%;
 	margin: 2em auto;
 	padding: 0.25em;
+	color: white;
 	
 }
 .error .circle {
-	float: right;
+	float: left;
+	margin-right: 1em;
 	background: #ffae02;
-	border: 2px dotted white;
+	border: 5px dotted white;
 	width: 6em;
 	height: 6em;
-	border-radius: 50%;
+	border-radius: 15%;
 	box-shadow: 0 0 0 3px #ffae02;
 }
 .error h1:first-child {
@@ -267,6 +269,10 @@ div.error .circle > h1 {
 	font-weight: bold;
 	line-height: 3em;
 	text-align: center;
+}
+div.errorMessage a,
+div.errorMessage a:visited {
+	color: white;
 }
 
 @media screen and (min-width: 420px) {
