@@ -58,6 +58,20 @@ header nav[role="main"] {
     min-width: 100%;
     z-index: 1000
     }
+.hidden-menu {
+	position: absolute;
+	top: 0;
+	width: inherit;
+	display: none;
+}
+.no-js span#menu {
+	display: none;
+}
+span#menu {
+	color: white;
+	font-size: 2em;
+	cursor: pointer;
+}
 
 nav[role="main"] ul li {
     text-align: center;
