@@ -64,13 +64,16 @@ header nav[role="main"] {
 	width: inherit;
 	display: none;
 }
-.no-js span#menu {
+.no-js span#menu-button {
 	display: none;
 }
-span#menu {
+span#menu-button {
 	color: white;
 	font-size: 2em;
 	cursor: pointer;
+}
+span#menu-button:hover {
+	color: #ffae02;
 }
 
 nav[role="main"] ul li {

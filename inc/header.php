@@ -14,7 +14,7 @@
 		<meta name="description" content="Caleb Westbrook a country singer songwriter from Nashville, TN">
 		<title>Caleb Westbrook</title>
 	</head>
-<body class="no-js">
+<body class="no-js" id="top">
 <!-- [if lt IE 10]>
 	<div class="browser">You are using a browser that is not supported.  Try a different <a href="http://whatbrowser.org/">browser.</a></div>
 <![endif]-->

@@ -3,16 +3,46 @@
 	      htmlBody = $('html body'),
 	      mainNav = $('#menu'),
 	      nav = $('#nav-menu'),
-	      win = $(window);
+	      win = $(window),
+	      button = $('#menu-button');
 	// remove .no-js from body..
 	$('body').removeClass('no-js');
+
+
+	/**
+	*  Slide down Menu
+	*
+	*/
+	function slider(button) {
+
+	}
 
 	if (win.width() < 600) {
 	      nav.addClass('hidden-menu');
 	      mainNav.css('padding', '1em');
-	      // call a function that causes the button to display the menu
+	} else {
+		button.hide();
+		nav.removeClass('hidden-menu');
 	}
+	button.on('click', function() {
+		mainNav.animate({
+			height: '+=48'
+		}, 'slow');
+		button.hide();
+		nav.show('slow');		
+	});
+	nav.find('a').on('click', function() {
+		mainNav.animate({
+			height: '-=48'
+		}, 200);
+		button.show();
+		nav.hide();
+	});
 
+	/**
+	*  Animation for links
+	*
+	*/
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
 	    var target = this.hash,
