@@ -13,6 +13,9 @@ include 'inc/header.php';
 				During years of practice and honing in on his craft, Caleb’s love for music expanded and branched out to a wide variety of musical genres; however, his love for country remains at the forefront.  
 				As Caleb says, “I have a particular love for country music, because I’m a country boy from a country family.”  Believe me… you can’t take the south out of this good ole’ southern boy!
 			</p>
+			<div class="callout">
+				<p>“I have a particular love for country music, because I’m a country boy from a country family.”</p>  <p>Believe me… you can’t take the south out of this good ole’ southern boy! </p>
+			</div>
 
 			<p>
 				Caleb is currently a local resident of Nashville, TN where he continues to 
@@ -23,9 +26,7 @@ include 'inc/header.php';
 
 				writer’s nights.
 			</p>
-			<div class="callout">
-				<p>“I have a particular love for country music, because I’m a country boy from a country family.”</p>  <p>Believe me… you can’t take the south out of this good ole’ southern boy! </p>
-			</div>
+
 			<p>
 				Caleb Westbrook is Nashville’s hidden diamond, and the time is coming when
 
@@ -37,21 +38,27 @@ include 'inc/header.php';
 
 				country-to-the-core lifestyle, Caleb Westbrook is the real deal!
 			</p>
-			<h4>Musical Band History</h4>
-			<ul>
-				<li>The Texas Gents</li>
-				<li>Westbrook</li>
-				<li>Left of Read</li>
-				<li>Cheyenne</li>
-			</ul>
-			<h4>Some of Caleb's Stomping Grounds:</h4>
-			<ul>
-				<li>Broken Spoke - Austin, TX</li>
-				<li>Horshoe Club - Killeen, TX</li>
-				<li>Rockin P - Stephenville, TX</li>
-				<li>Rattlesnake Inn - Florence, TX</li>
-				<li>Bostocks - Stephenville, TX</li>
-			</ul>
+			
+			<div class="lists">
+				<h4>Musical Band History</h4>
+				<ul>
+					<li>The Texas Gents</li>
+					<li>Westbrook</li>
+					<li>Left of Read</li>
+					<li>Cheyenne</li>
+				</ul>
+			</div>
+			<div class="lists">
+				<h4>Some of Caleb's Stomping Grounds:</h4>
+			
+				<ul>
+					<li>Broken Spoke - Austin, TX</li>
+					<li>Horshoe Club - Killeen, TX</li>
+					<li>Rockin P - Stephenville, TX</li>
+					<li>Rattlesnake Inn - Florence, TX</li>
+					<li>Bostocks - Stephenville, TX</li>
+				</ul>
+			</div>
 		</div>
 	</article>
 

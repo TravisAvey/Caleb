@@ -496,9 +496,8 @@ div.errorMessage a, div.errorMessage a:visited {
         }
          article.bio p,
         .bio .callout,
-        .bio h4,
-        .bio ul {
-        	width: 48%;
+        .bio .lists {
+        	width: 45%;
         }
         .flexbox .bio p,
         .flexbox .bio .callout,
@@ -511,10 +510,18 @@ div.errorMessage a, div.errorMessage a:visited {
         	flex-wrap: wrap;
         }
         .flexbox .bio .callout {
-        	order: 2;
+        	
         }
         .flexbox .bio .callout p {
         	width: 100%;
+        	padding-top: 2em;
+        }
+        .bio h4 {
+        	font-size: 1.8em;
+        }
+        .bio ul li {
+        	letter-spacing: 0.15em;
+        	font-size: 1.25em;
         }
 
     div.soundcloud iframe {
