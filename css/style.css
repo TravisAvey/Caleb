@@ -127,16 +127,15 @@ nav[role="main"] ul li a:hover {
     width: 85%;
     margin: 0 auto
     }
-
 section.about {
-    margin: 50% auto
+    margin: 50% auto;
+    background: rgba(0,0,0,0.575);
+    border-bottom: 4px solid #ffae02
     }
 
 .bio {
     margin: 0.5em 0;
-    background: rgba(0, 0, 0, 0.3);
     color: white;
-    border-bottom: 3px solid #ffae02
     }
 
 .bio h3 {
@@ -478,16 +477,11 @@ div.errorMessage a, div.errorMessage a:visited {
     article.bio p {
         width: 90%;
         }
-    section.about {
-        background-color: rgba(0, 0, 0, 0.3);
-        border-bottom: 4px solid #ffae02
-        }
-    article.bio {
-        border: none;
-        background-color: rgba(0, 0, 0, 0)
-        }
     }
 @media screen and (min-width: 1200px) {
+	header h1 {
+		font-size: 5em;
+	}
     section.about {
         width: 90%;
         -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
@@ -499,25 +493,38 @@ div.errorMessage a, div.errorMessage a:visited {
         .bio .lists {
         	width: 45%;
         }
+        .bio h3 {
+        	font-size: 2.3em;
+        }
+        .bio p {
+        	font-size: 1.2em;
+        }
         .flexbox .bio p,
         .flexbox .bio .callout,
         .flexbox .bio h4,
         .flexbox .bio ul {
-        	margin: 0;
+        	margin: 0.5em;
+        	padding: 0.5em;
         }
         .flexbox .bio .container {
+        	display: -webkit-box;
+        	display: -moz-box;
+        	display: -ms-flexbox;
+        	display: -webkit-flex;
         	display: flex;
         	flex-wrap: wrap;
+        	width: 90%;
+        	margin: 0 auto;
         }
         .flexbox .bio .callout {
         	
         }
         .flexbox .bio .callout p {
-        	width: 100%;
-        	padding-top: 2em;
+        	width: 95%;
+        	font-size: 1.5em;
         }
         .bio h4 {
-        	font-size: 1.8em;
+        	font-size: 2em;
         }
         .bio ul li {
         	letter-spacing: 0.15em;
