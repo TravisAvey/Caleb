@@ -147,7 +147,7 @@ section.about {
     border-bottom: 3px solid #ffae02
     }
 
-.bio, .bio h3, .bio p {
+.bio, .bio h3, .bio p, .bio h4, .bio ul {
     margin-top: 0.5em;
     padding: 0.5em
     }
@@ -157,6 +157,22 @@ section.about {
     letter-spacing: 0.1em;
     line-height: 1.3em
     }
+.bio h4 {
+	font-size: 1.5em;
+	border-bottom: 3px solid #ffae02;
+}
+.bio ul li {
+	margin-bottom: 0.2em;
+	line-height: 1.25em;
+}
+.bio .callout {
+	font-size: 1.4em;
+	font-style: italic;
+	border: 2px solid #ffae02;
+	border-left: 15px solid #ffae02;
+	padding: 0.5em;
+}
+
 
 /*	===========================================================
 	The following makes the video from vimeo/youtube responsive
@@ -374,19 +390,19 @@ div.errorMessage a, div.errorMessage a:visited {
     }
     nav[role="main"] ul li {
         line-height: 4em;
-        margin: auto
+        margin: auto;
         }
     header h1, header p {
         width: 95%;
-        margin: auto
+        margin: auto;
         }
     header p {
         font-size: 1.2em;
-        margin-top: 1em
+        margin-top: 1em;
         }
-    .bio h3, .bio p {
+    .bio h3, .bio p, .bio h4, .bio ul, .bio .callout {
         width: 80%;
-        margin: 1em auto
+        margin: 1em auto;
         }
     #connect ul {
         width: 100%;
@@ -399,7 +415,7 @@ div.errorMessage a, div.errorMessage a:visited {
         justify-content: space-around
         }
     #connect ul li {
-        margin: 1.5em auto
+        margin: 1.5em auto;
         }
         html.noflexbox#connect ul li {
         	display: inline;
@@ -409,10 +425,10 @@ div.errorMessage a, div.errorMessage a:visited {
         	width: 85%;
         }
     #connect ul li {
-        font-size: 1.2em
+        font-size: 1.2em;
         }
     footer {
-        margin: 0 auto
+        margin: 0 auto;
         }
     }
 @media screen and (min-width: 750px) {
@@ -461,9 +477,6 @@ div.errorMessage a, div.errorMessage a:visited {
 @media screen and (min-width: 1000px) {
     article.bio p {
         width: 90%;
-        -webkit-columns: 20em;
-        -moz-columns: 20em;
-        columns: 20em
         }
     section.about {
         background-color: rgba(0, 0, 0, 0.3);
@@ -481,6 +494,29 @@ div.errorMessage a, div.errorMessage a:visited {
         -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4)
         }
+         article.bio p,
+        .bio .callout,
+        .bio h4,
+        .bio ul {
+        	width: 48%;
+        }
+        .flexbox .bio p,
+        .flexbox .bio .callout,
+        .flexbox .bio h4,
+        .flexbox .bio ul {
+        	margin: 0;
+        }
+        .flexbox .bio .container {
+        	display: flex;
+        	flex-wrap: wrap;
+        }
+        .flexbox .bio .callout {
+        	order: 2;
+        }
+        .flexbox .bio .callout p {
+        	width: 100%;
+        }
+
     div.soundcloud iframe {
         width: 50%
         }

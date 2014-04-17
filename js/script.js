@@ -18,7 +18,7 @@
 	}
 
 	if (win.width() < 600) {
-	      nav.addClass('hidden-menu');
+	      nav.addClass('hidden-menu').find('li').css('text-align', 'left');
 	      mainNav.css('padding', '1em');
 	} else {
 		button.hide();
