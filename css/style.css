@@ -249,7 +249,7 @@ h3.music-tag {
     border-bottom: 4px solid #ffae02
     }
 
-/*.no-flexbox*/ div.group:after {
+.no-flexbox div.group:after {
     content: "";
     display: table;
     clear: both
@@ -503,7 +503,7 @@ div.errorMessage a, div.errorMessage a:visited {
         .bio p {
         	font-size: 1.2em;
         }
-    /*    .flexbox .bio p,
+        .flexbox .bio p,
         .flexbox .bio .callout,
         .flexbox .bio h4,
         .flexbox .bio ul {
@@ -520,20 +520,30 @@ div.errorMessage a, div.errorMessage a:visited {
         	width: 90%;
         	margin: 0 auto;
         }
-        .flexbox .bio .callout {
+        .flexbox .bio .callout,
+        .flexbox .bio p.right {
         	margin-left: 1em;
-        }*/
+        }
+        .flexbox .bio p.right {
+        	margin-top: -5em;
+        }
+        .flexbox .bio .callout {
+        	height: 35%;
+        }
         .bio .callout p {
         	width: 95%;
         	font-size: 1.4em;
         }
-        /*.flexbox .bio .lists:last-child {
-        	margin-left: 3em;
-        }*/
-        /*.no-flexbox*/ .bio .left {
+        .flexbox .bio div.left {
+        	margin-top: 2em;
+        }
+        .flexbox .bio div.right {
+        	margin-left: 2em;
+        }
+        .no-flexbox .bio .left {
        	float: left;
         }
-        /*.no-flexbox*/ .bio .right {
+        .no-flexbox .bio .right {
         	float: right;
         }
         .bio p:last-child {
