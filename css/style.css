@@ -249,7 +249,7 @@ h3.music-tag {
     border-bottom: 4px solid #ffae02
     }
 
-.no-flexbox div.group:after {
+/*.no-flexbox*/ div.group:after {
     content: "";
     display: table;
     clear: both
@@ -482,8 +482,12 @@ div.errorMessage a, div.errorMessage a:visited {
 	header h1 {
 		font-size: 5em;
 	}
+	#nav-menu,
+	section.about,
+	#connect ul {
+		width: 1200px;
+	}
     section.about {
-        width: 90%;
         -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
         -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4)
@@ -491,7 +495,7 @@ div.errorMessage a, div.errorMessage a:visited {
          article.bio p,
         .bio .callout,
         .bio .lists {
-        	width: 45%;
+        	width: 44%;
         }
         .bio h3 {
         	font-size: 2.3em;
@@ -499,12 +503,12 @@ div.errorMessage a, div.errorMessage a:visited {
         .bio p {
         	font-size: 1.2em;
         }
-        .flexbox .bio p,
+    /*    .flexbox .bio p,
         .flexbox .bio .callout,
         .flexbox .bio h4,
         .flexbox .bio ul {
-        	margin: 0.5em;
-        	padding: 0.5em;
+        	margin: 0.25em;
+        	padding: 0.25em;
         }
         .flexbox .bio .container {
         	display: -webkit-box;
@@ -517,11 +521,23 @@ div.errorMessage a, div.errorMessage a:visited {
         	margin: 0 auto;
         }
         .flexbox .bio .callout {
-        	
-        }
-        .flexbox .bio .callout p {
+        	margin-left: 1em;
+        }*/
+        .bio .callout p {
         	width: 95%;
-        	font-size: 1.5em;
+        	font-size: 1.4em;
+        }
+        /*.flexbox .bio .lists:last-child {
+        	margin-left: 3em;
+        }*/
+        /*.no-flexbox*/ .bio .left {
+       	float: left;
+        }
+        /*.no-flexbox*/ .bio .right {
+        	float: right;
+        }
+        .bio p:last-child {
+        	margin-left: 1em;
         }
         .bio h4 {
         	font-size: 2em;
