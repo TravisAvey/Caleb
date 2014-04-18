@@ -63,9 +63,6 @@ include 'inc/header.php';
 		</div>
 	</article>
 
-	<!-- <div class="video" id="video">
-		<iframe src="//player.vimeo.com/video/37328349" width="560" height="315" frameborder="2" color="#ffae02" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	</div> -->
 </section>
 
 <div class="group"></div>
@@ -79,9 +76,7 @@ include 'inc/header.php';
 		<li>
 			On <a href="https://www.facebook.com/caleb.westbrook.33" class="facebook">Facebook <i class="fa fa-facebook"></i></a>
 		</li>
-		<!-- <li>
-			On <a href="#" class="twitter">Twitter <i class="fa fa-twitter"></i></a>
-		</li> -->
+
 		<li>
 			Via <a href="mailto:westbrook_52@hotmail.com " class="email">Email <i class="fa fa-envelope"></i></a>
 		</li>
