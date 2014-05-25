@@ -6,7 +6,7 @@
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style.min.css" />
 		<link rel="icon" type="image/png" href="">
 		<script src="js/Modernizr2.7.1.js"></script>
 		<meta name="viewport" content="width=device-width" initial-scale="1.0">

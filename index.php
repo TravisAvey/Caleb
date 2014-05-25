@@ -80,8 +80,8 @@ include 'inc/header.php';
 	<h2 id="video-title">Funky Country Riff</h2>
 	<div id="video-player">
 		<video id="html5-video">
-			<source  id="webmSource" src="videos/country.webm" type="video/webm" />
 			<source id="mp4Source" src="videos/country.mp4" type="video/mp4" />
+			<source  id="webmSource" src="videos/country.webm" type="video/webm" />
 			<source id="oggSource" src="videos/country.ogv" type="video/ogg" />
 			<p>Your browser doesn't support HTML5 Video
 			<a href="videos/nervous.mov">Download</a> the video instead.</p>
