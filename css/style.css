@@ -6,7 +6,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 html {
     height: 100%;
     background: url(../img/caleb1bw.jpg) no-repeat fixed #000;
-    -webkit-background-size: contain;
     background-size: contain
     }
 
@@ -59,21 +58,21 @@ header nav[role="main"] {
     z-index: 1000
     }
 .hidden-menu {
-	position: absolute;
-	top: 0;
-	width: inherit;
-	display: none;
+    position: absolute;
+    top: 0;
+    width: inherit;
+    display: none;
 }
 .no-js span#menu-button {
-	display: none;
+    display: none;
 }
 span#menu-button {
-	color: white;
-	font-size: 2em;
-	cursor: pointer;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
 }
 span#menu-button:hover {
-	color: #ffae02;
+    color: #ffae02;
 }
 
 nav[role="main"] ul li {
@@ -87,8 +86,6 @@ nav[role="main"] ul li a {
     font-variant: small-caps;
     text-decoration: none;
     color: white;
-    -moz-transition: color 1s linear;
-    -o-transition: color 1s linear;
     -webkit-transition: color 1s linear;
     transition: color 1s linear
     }
@@ -118,7 +115,6 @@ nav[role="main"] ul li a:hover {
     }
 
 .intro figure img {
-    -webkit-background-size: cover;
     background-size: cover
     }
 
@@ -157,19 +153,19 @@ section.about {
     line-height: 1.3em
     }
 .bio h4 {
-	font-size: 1.5em;
-	border-bottom: 3px solid #ffae02;
+    font-size: 1.5em;
+    border-bottom: 3px solid #ffae02;
 }
 .bio ul li {
-	margin-bottom: 0.2em;
-	line-height: 1.25em;
+    margin-bottom: 0.2em;
+    line-height: 1.25em;
 }
 .bio .callout {
-	font-size: 1.4em;
-	font-style: italic;
-	border: 2px solid #ffae02;
-	border-left: 15px solid #ffae02;
-	padding: 0.5em;
+    font-size: 1.4em;
+    font-style: italic;
+    border: 2px solid #ffae02;
+    border-left: 15px solid #ffae02;
+    padding: 0.5em;
 }
 
 
@@ -183,8 +179,6 @@ a.top {
     text-decoration: none;
     color: white;
     border: 1px solid white;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.3);
     padding: 0.5em 0.5em 0 0.5em
@@ -202,8 +196,6 @@ footer a {
     text-decoration: none;
     color: white;
     font-variant: small-caps;
-    -moz-transition: 0.5s color linear;
-    -o-transition: 0.5s color linear;
     -webkit-transition: 0.5s color linear;
     transition: 0.5s color linear
     }
@@ -235,7 +227,188 @@ h3.music-tag {
     display: table;
     clear: both
     }
+#video {
+    margin-top: 15em;
+    padding: 2em 0;
+    border-top: 4px solid #ffae02;
+    border-bottom: 4px solid #ffae02;
+    background: rgba(255,174,2,0.1);
+}
+#noscript {
+    background: rgba(0,0,0,0.5);
+    padding: 1em;
+    border-radius: 5px;
+    color: #fff;
+    width: 400px;
+    margin: 0 auto;
+}
+#noscript h4 {
+    text-align: center;
+    margin: 1em 0;
+}
+#noscript a,
+#noscript a:visited {
+    color: steelblue;
+}
+video {
+    width: 400px;
+    height: 320px;
+    position: relative;
+}
+#video-player {
+    width: 400px;
+    margin: 0 auto;
+}
+#video h3 {
+    margin: 0.3em;
+    padding: 0.75em;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+#video-title {
+    color: #fff;
+    font-size: 1.75em;
+    text-align: center;
+    margin-bottom: -1.25em;
+}
+#video-controls {
+    width: 400px;
+    position: relative;
+    bottom: 3.2em;
+    opacity: 0.9;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    background: rgba(0,0,0,0.8);
+}
+#video .vid-cont {
+    margin-left: 0.6em;
+}
+#video i {
+    color: white;
+    background: rgb(255,174,2);
+    padding: 0.5em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#video i:active {
+    color: rgb(255,174,2);
+    background: #fff;
 
+}
+#video input, #video i {
+    margin-left: 0.1em;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  height: 10px;
+  margin: 0;
+  border: none;
+  padding: 1px 2px;
+  border-radius: 14px;
+  background: #232528;
+  box-shadow: inset 0 1px 0 0 #0d0e0f, inset 0 -1px 0 0 #3a3d42;
+  -webkit-box-shadow: inset 0 1px 0 0 #0d0e0f, inset 0 -1px 0 0 #3a3d42;
+  outline: none; 
+}
+input[type="range"]::-moz-range-track {
+  border: inherit;
+  background: transparent;
+}
+input[type="range"]::-ms-track {
+  border: inherit;
+  color: transparent; 
+  background: transparent;
+}
+input[type="range"]::-ms-fill-lower,
+input[type="range"]::-ms-fill-upper {
+  background: transparent;
+}
+input[type="range"]::-ms-tooltip {
+  display: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 12px;
+  border: none;
+  border-radius: 12px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffae02), color-stop(100%, #442b00)); 
+  background-image: -webkit-linear-gradient(top , #ffae02 0, #442b00 100%);
+  background-image: -webkit-linear-gradient(top, #ffae02 0, #442b00 100%);
+  background-image: linear-gradient(to bottom, #ffae02 0, #442b00 100%);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 12px;
+  border: none;
+  border-radius: 12px;
+  background-image: linear-gradient(to bottom, #ffae02 0, #442b00 100%); 
+}
+input[type="range"]::-ms-thumb {
+  width: 20px;
+  height: 12px;
+  border-radius: 12px;
+  border: 0;
+  background-image: linear-gradient(to bottom, #ffae02 0, #442b00 100%);
+}
+video:hover + #video-controls:hover {
+    opacity: 0.9;
+}
+#video #video-play {
+    border-radius: 100%;
+    padding: 1em;
+    border: 3px solid #fff;
+}
+#seek-bar { width: 140px; }
+#volume-bar { width: 60px; }
+#video-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 1em;
+    background: rgba(0,0,0,0.4);
+}
+#video-list img {
+    cursor: pointer;
+    margin: 0 0 0.5em 0.5em;
+
+}
+#video-list .video-details {
+    margin: 0.5em;
+}
+#video-list .video-details h4 {
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+    cursor: pointer;
+}
+html.noflexbox #video-list .video-details {
+    display: inline-block;
+}
+html.noflexbox #video-list .video-details h4 {
+    text-align: left;
+}
+
+#video-list .video-details:hover h4,
+#video-list .video-details:active h4 {
+    color: #ffae02;
+}
+ 
+/*
+
+    Connect
+
+*/
 #connect {
     margin-top: 15em;
     border-top: 4px solid #ffae02;
@@ -254,7 +427,7 @@ h3.music-tag {
     }
 
 #connect ul {
-    width: 45%;
+    width: 50%;
     margin: 1em auto
     }
 
@@ -268,8 +441,6 @@ h3.music-tag {
     text-decoration: none;
     color: white;
     letter-spacing: 0.1em;
-    -moz-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
     -webkit-transition: all 0.5s linear;
     transition: all 0.5s linear
     }
@@ -282,8 +453,8 @@ h3.music-tag {
     color: #fff
     }
 
-/* ================ 	
-	Error Pages
+/* ================     
+    Error Pages
    ================
 */
 .error {
@@ -300,11 +471,7 @@ h3.music-tag {
     border: 5px dotted white;
     width: 6em;
     height: 6em;
-    -moz-border-radius: 15%;
-    -webkit-border-radius: 15%;
     border-radius: 15%;
-    -moz-box-shadow: 0 0 0 3px #ffae02;
-    -webkit-box-shadow: 0 0 0 3px #ffae02;
     box-shadow: 0 0 0 3px #ffae02
     }
 
@@ -355,7 +522,6 @@ div.errorMessage a, div.errorMessage a:visited {
         }
     nav[role="main"] ul {
         display: -webkit-box;
-        display: -moz-box;
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
@@ -363,10 +529,10 @@ div.errorMessage a, div.errorMessage a:visited {
         margin: auto
         }
         html.noflexbox nav[role="main"] ul {
-        	margin-left: 6em;
+            margin-left: 6em;
         }
     html.no-flexbox nav[role="main"] ul li {
-	display: inline;
+    display: inline;
     }
     nav[role="main"] ul li {
         line-height: 4em;
@@ -384,25 +550,69 @@ div.errorMessage a, div.errorMessage a:visited {
         width: 80%;
         margin: 1em auto;
         }
+    #video-player, 
+    #html5-video,
+    #video-controls {
+        width: 580px;
+    }
+    #video-title {
+        margin-bottom: 1em;
+    }
+    #html5-video {
+        height: 326px;
+    }
+    #video-controls {
+        bottom: 0.2em;
+    }
+    .vid-cont {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: baseline;
+        -webkit-align-items: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+    }
+    #video i, 
+    #video input {
+        margin-left: 1em;
+    }
+    #video #seek-bar {
+        width: 200px;
+    }
+    #video #volume-bar {
+        width: 80px;
+    }
+    #video-list .video-details h4 {
+        font-size: 1.2em;
+    }
     #connect ul {
         width: 100%;
         display: -webkit-box;
-        display: -moz-box;
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
         justify-content: space-around
         }
     #connect ul li {
         margin: 1.5em auto;
         }
         html.noflexbox#connect ul li {
-        	display: inline;
-        	margin-right: 1em;
+            display: inline;
+            margin-right: 1em;
         }
         html.noflexbox #connect ul {
-        	width: 85%;
+            width: 85%;
         }
     #connect ul li {
         font-size: 1.2em;
@@ -413,7 +623,6 @@ div.errorMessage a, div.errorMessage a:visited {
     }
 @media screen and (min-width: 750px) {
     html {
-        -webkit-background-size: cover;
         background-size: cover
         }
     header h1 {
@@ -456,99 +665,113 @@ div.errorMessage a, div.errorMessage a:visited {
         }
     }
 @media screen and (min-width: 1200px) {
-	header h1 {
-		font-size: 5em;
-	}
-	#nav-menu,
-	section.about,
-	#connect ul {
-		width: 1200px;
-	}
+    header h1 {
+        font-size: 5em;
+    }
+    #nav-menu,
+    section.about,
+    #connect ul {
+        width: 1200px;
+    }
+    #video-player, 
+    #html5-video,
+    #video-controls {
+        width: 800px;
+    }
+    #html5-video {
+        height: 450px;
+    }
+    #video #seek-bar {
+        width: 350px;
+    }
+    #video #volume-bar {
+        width: 120px;
+    }
     section.about {
-        -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-        -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4)
         }
          article.bio p,
         .bio .callout,
         .bio .lists {
-        	width: 44%;
+            width: 44%;
         }
         .bio h3 {
-        	font-size: 2.3em;
+            font-size: 2.3em;
         }
         .bio p {
-        	font-size: 1.2em;
+            font-size: 1.2em;
         }
         .flexbox .bio p,
         .flexbox .bio .callout,
         .flexbox .bio h4,
         .flexbox .bio ul {
-        	margin: 0.25em;
-        	padding: 0.25em;
+            margin: 0.25em;
+            padding: 0.25em;
         }
         .flexbox .bio .container {
-        	display: -webkit-box;
-        	display: -moz-box;
-        	display: -ms-flexbox;
-        	display: -webkit-flex;
-        	display: flex;
-        	flex-wrap: wrap;
-        	width: 90%;
-        	margin: 0 auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 0 auto;
         }
         .flexbox .bio .callout,
         .flexbox .bio p.right {
-        	margin-left: 1em;
+            margin-left: 1em;
         }
         .flexbox .bio p.right {
-        	margin-top: -5em;
+            margin-top: -5em;
         }
         .flexbox .bio .callout {
-        	height: 35%;
+            height: 35%;
         }
         .bio .callout p {
-        	width: 95%;
-        	font-size: 1.4em;
+            width: 95%;
+            font-size: 1.4em;
         }
         .flexbox .bio div.left {
-        	margin-top: 2em;
+            margin-top: 2em;
         }
         .flexbox .bio div.right {
-        	margin-left: 2em;
+            margin-left: 2em;
         }
         .no-flexbox .bio .left {
-       	float: left;
+        float: left;
         }
         .no-flexbox .bio .right {
-        	float: right;
+            float: right;
         }
         .bio p:last-child {
-        	margin-left: 1em;
+            margin-left: 1em;
         }
         .bio h4 {
-        	font-size: 2em;
+            font-size: 2em;
         }
         .bio ul li {
-        	letter-spacing: 0.15em;
-        	font-size: 1.25em;
+            letter-spacing: 0.15em;
+            font-size: 1.25em;
         }
 
     div.soundcloud iframe {
         width: 50%
         }
+
     }
  @media screen and (min-width: 1400px) {
- 	#nav-menu,
-	section.about,
-	#connect ul {
-		width: 1300px;
-	}
+    #nav-menu,
+    section.about,
+    #connect ul {
+        width: 1300px;
+    }
  }
  @media screen and (min-width: 1800px) {
- 	#nav-menu,
-	section.about,
-	#connect ul {
-		width: 1400px;
-	}
+    #nav-menu,
+    section.about,
+    #connect ul {
+        width: 1400px;
+    }
  }

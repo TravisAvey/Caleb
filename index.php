@@ -70,6 +70,54 @@ include 'inc/header.php';
 <div class="soundcloud">
 	<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/22983816&amp;auto_play=false&amp;hide_related=false&amp;visual=true&amp;color=ffae02"></iframe>
 </div>
+
+<section id="video">
+	<h3>Watch Caleb Play Guitar</h3>
+	<div id="noscript">
+		<h4>Video Player will not work without JavaScript Enabled!</h4>
+		<h4>Please enable JavaScript or visit <a href="https://www.youtube.com/user/MrTune13" target="_blank">YouTube</a> to see the videos.</h4>
+	</div>
+	<h2 id="video-title">Funky Country Riff</h2>
+	<div id="video-player">
+		<video id="html5-video">
+			<source  id="webmSource" src="videos/country.webm" type="video/webm" />
+			<source id="mp4Source" src="videos/country.mp4" type="video/mp4" />
+			<source id="oggSource" src="videos/country.ogv" type="video/ogg" />
+			<p>Your browser doesn't support HTML5 Video
+			<a href="videos/nervous.mov">Download</a> the video instead.</p>
+		</video>
+		<div id="video-controls">
+			<div class="vid-cont">
+				<input type="range" id="seek-bar" value="0">
+				<i id="video-play" class="fa fa-play"></i>
+				<i id="video-pause" class="fa fa-pause"></i>
+				<i id="mute" class="fa fa-volume-up"></i>
+				<input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+				<i id="full-screen" class="fa fa-expand"></i>
+			</div>
+		</div>
+	</div>
+	<section id="video-list">
+		<div id="country" class="video-details">
+			<img src="img/country.png" alt="Caleb playing a funky country riff" title="Funky Country Riff" />
+			<h4>Funky Country Riff</h4>
+			<h4>Length: 2:05</h4>
+		</div>
+		<div id="jazzy" class="video-details">
+			<img src="img/jazzy.png" alt="Caleb getting Jazzy" title="Caleb getting Jazzy" />
+			<h4>Caleb Getting Jazzy</h4>
+			<h4>Length: 2:13</h4>
+		</div>
+		<div id="nervous" class="video-details">
+			<img  src="img/nervous.png" alt="Nervous Breakdown (Brad Paisely)" title="Neverou Breakdown (Brad Paisely)" />
+			<h4>Nervous Breakdown</h4>
+			<h4>Brad Paisley Cover</h4>
+			<h4>Length: 0:50</h4>
+		</div>
+	</section>
+	
+	
+</section>
 <section id="connect">
 	<h2>Connect With Me</h2>
 	<ul>
