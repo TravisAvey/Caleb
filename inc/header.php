@@ -9,10 +9,16 @@
 		<link rel="stylesheet" href="css/style.min.css" />
 		<link rel="icon" type="image/png" href="">
 		<script src="js/Modernizr2.7.1.js"></script>
-		<meta name="viewport" content="width=device-width" initial-scale="1.0">
-
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
 		<meta name="description" content="Caleb Westbrook a country singer songwriter from Nashville, TN">
 		<title>Caleb Westbrook</title>
+
+		<meta property="og:title" content="Caleb Westbrook">
+		<meta property="og:description" content="Up and coming artist Caleb Westbrook country singer songwriter.">
+		<meta property="og:type" content="website">
+		<meta property="og:site_name" content="Caleb Westbrook">
+		<meta property="og:image" content="http://www.calebwestbrook.com/img/caleb1bw.jpg">
+		<meta property="og:url" content="http://www.calebwestbrook.com">
 	</head>
 <body class="no-js" id="top">
 <!-- [if lt IE 10]>
